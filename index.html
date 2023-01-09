@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/584aebd994.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+      <div class="w3-top">
+        <div class="w3-bar w3-white w3-card" id="myNavbar">
+          <a href="#home" class="w3-bar-item w3-button w3-wide"> BULO </a>
+          <!-- Right-sided navbar links -->
+          <div class="w3-left w3-hide-small">
+            
+            <a href="mens.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i>Saxophone</a>
+            <a href="mens.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Piano </a>
+            <a href="mens.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Drums </a>
+            <a href="mens.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Guitar </a>
+            <a href="#contact" class="w3-bar-item w3-button" id="contact"><i class="fa fa-envelope"></i> CONTACT</a>
+
+            <div class="w3-right w3-hide-small" id="ser">
+                <input
+                  type="search"
+                  value=""
+                  placeholder="Search for products brands and more"
+                  id="store"
+                />
+                <div><i class="fa-solid fa-magnifying-glass"></i></div>
+              </div>
+            </div>
+            <div>
+                <a href="cart.html" class="w3-bar-item w3-button"><i class="fa-solid fa-cart-plus"></i>Cart </a>
+              <p>0</p>
+          </div>
+          <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+      
+          <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </div>
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+    <a href="mens.html" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-user"></i>Saxophone</a>
+    <a href="mens.html" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Piano </a>
+    <a href="mens.html" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Drums </a>
+    <a href="mens.html" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Guitar </a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button" id="contact"><i class="fa fa-envelope"></i> CONTACT</a>
+  </nav>
+
+<! -- Header -->
+      <header class="bgimg-1 " id="home">
+        <div class="w3-display-left w3-text-white" style="padding:48px">
+          <span class="w3-jumbo w3-hide-small">Music is Life </span><br>
+          <span class="w3-xxlarge w3-hide-large w3-hide-medium"> Some people have lives; some people have music </span><br>
+          <span class="w3-large"> “You can see the beauty in things only after learning the meaning of the word 'beautiful'.”
+            ― Mwanandeke Kindembo </span>
+          <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Listen, learn more and enjoy your today</a></p>
+        </div> 
+        <div class="w3-display-bottomleft w3-text-black w3-large" style="padding:24px 48px">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </header>
+    
+
+
+
+      <!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+    <h3 class="w3-center"> <b> ABOUT THE BULO </b> </h3>
+    <p class="w3-center w3-large"> <b> Love for the Company </b> </p>
+    <div class="w3-row-padding w3-center" style="margin-top:64px">
+      <div class="w3-quarter w3-left">
+        <i class="fa fa-heart w3-margin-bottom w3-jumbo w3-center"></i>
+        <p class="w3-large">Music</p>
+        <p>A music is the heart of every man we take time to give a great experience to stream, 
+          download, even make your own music and access music on your local machine</p>
+            <section>
+                <h5 class="w3-black w3-button" id="details">
+                    Learn how to play 
+                    <details id="details">
+                        <a href="http://"><h4>Saxophone</h4></a> 
+                    
+                        <a href="http://"><h4>The Piano </h4></a>
+
+
+                        <a href="http://"><h4> The Drums</h4></a>
+
+                        <a href="http://"><h4>The Guitar</h4></a>
+
+                  </h5>
+
+            </section>
+          
+      </div>
+      <div class="w3-quarter ">
+        <i class="fa fa-desktop margin-bottom w3-jumbo"></i>
+        <p class="w3-large"> Shop </p>
+        <p>Bulo is a platform that also make it easy for you to purchase your
+          music accessories that fit your specification. And for Love to play an instrument 
+          along with the music Bulo satisfies your quench and gets you to purchase instruments of your desire.</p>
+
+          <section>
+            <h5> <a href="#store" class="w3-bar-item w3-button w3-black">Link up to our stores </a> </h5>
+          </section>
+      </div>
+
+      <div class="w3-quarter w3-right">
+        <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">Support</p>
+        <p>Bulo has a great time to help you where you stack in using of your application, 
+          also if you have request or having some challenge your instrument it lets you interact directly for help</p>
+          <section>
+            <h5> <a href="#contact" class="w3-bar-item w3-button w3-black"> Link up with our Team </a> </h5>
+          </section>
+      </div>
+    </div>
+  </div>
+  
+  
+  <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+  <footer class="w3-center w3-black w3-padding-64">
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <div class="w3-xlarge w3-section">
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </div>
+  </footer>
+   
+</body>
+</html>
